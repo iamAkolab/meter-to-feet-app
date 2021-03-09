@@ -1,10 +1,10 @@
-from tkinter import TK, Button, Label, DoubleVar, Entry
+from tkinter import Tk, Button, Label, DoubleVar, Entry
 
 #App User Interface
-appWindow = TK()
+appWindow = Tk()
 appWindow.title("Meter to Feet Conversion App")
-appWindow.configure(background = "grey")
-appWindow.geometry("320 x 240")
+appWindow.configure(background = "grey20")
+appWindow.geometry("640x480")
 appWindow.resizable(width = False, height = False)
 
 appWindow.mainloop()
